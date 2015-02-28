@@ -23,7 +23,7 @@ body {
 	color: #231f20;
 	line-height: 1.6;
 }
-.wrapper { 
+main { 
 	width:90%; 
 	max-width: 1100px;
 	min-width: 400px;
@@ -98,24 +98,41 @@ pre {
 	/*width: 100%;*/
 }
 			/* SIDEBAR CONTENT */ 
+
+.ml-40 {
+	margin-left: 40px;
+}
+
 .sidebar { 
-	max-width: 175px;
-	margin-left: 30px;
+	max-width: 225px;
+	position: absolute;
 	float: left;
+	left: 0;
+	/*background-color: #fff;*/
 }
 .sidebar p {
 	font-size: 12px;
 	margin-bottom: 40px;
 }
 .top-left {
-	position: fixed;
-	left: 0;
-	padding-left: 30px;
 	background-color: #fff;
-	z-index: 10;
+	position: fixed;
+	/* <$> Remember that padding is included in width in the box model, while margin won't - this will be equivalent to a 225 */
+	left:0;
+	/* </$> */
+	z-index: 4;
+}
+.top-header {
+	width: 225px;
+	padding-left: 40px;
+}
+.sidebar-header-content {
+	width: 200px;
+	margin: 0 auto;
 }
 
 .logo {
+	text-align: center;
 	position: relative;
 	left: -10px;
 	padding-bottom: 15px;
@@ -141,6 +158,12 @@ pre {
 .social img {
 	display:inline-block;
 }
+.hide {
+	display: none;
+}
+.pl-m {
+	padding-left: 40px;
+}
 .widget_area {
 	margin-top: 300px;
 	margin-left: 5px;
@@ -155,29 +178,80 @@ pre {
 	text-decoration: none;
 }
 
+.ztest {
+	z-index: 10;
+}
+
 			/* HOME PAGE */
 
 .home-title {
 	font-size:2.5em;
 	text-align: right;
-	margin-right: -100px;
+	margin-right: 100px;
+	margin-top: 50px;
 }
 
 .fullwrap {
-	position: absolute;
-	padding-top: 200px;
-	height: 100px;
+	position: fixed;
+	width: 100%;
+	padding-top: 234px;
 	left:0;
 	z-index: 1;
 }
+.top-cap {
+	height: 234px;
+	width: 100%;
+	position: fixed;
+	right: 0;
+	z-index: 2;
+	background-color: #fff;
+}
+.img-wrapper {
+	height: 100px;
+}
+.home-content {
+	width: 100%;
+	left: 0;
+	position: absolute;
+	margin-top: 600px;
+	z-index: 3;
+	background-color: #fff;
+}
+ 			/* parallax */
+
+.parallax {
+  /*perspective: 1px; */
+  /*height: 100vh;*/
+  /*overflow-x: hidden;*/
+  /*overflow-y: auto;*/
+}
+/*.px-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}*/
+
+/*px-front { 
+  transform: translateZ(0);
+}*/
+/*.px-back {
+  transform: translateZ(-1px);
+}*/
 
 			/* CONTENT AREA */ 
+.pt-90 {
+	padding-top: 50px;
+}
 
-.content { 
+.right-section {
 	padding-left: 235px;
 	margin-left: 10%;
 	width: 550px;
-	padding-top: 90px;
+}
+
+.content { 
 }
 .content h1 a {
 	color: #a52021;
@@ -218,12 +292,29 @@ pre {
 .attr {
 	font-size: 9px;
 }
+
+		/* PDF viewer */
+.full-scr-pdf {
+	display: block;
+	width: 700px;
+	height: 900px;
+}
+.mobile-pdf {
+	display: none;
+}
+
 @media screen and (max-width:900px) {
 	.content { 
 		padding-left: 27.64%;
 		margin-left: 10%;
 		width: 55%;
 		padding-top: 90px;
+	}
+	.full-scr-pdf {
+		display: none;
+	}
+	.mobile-pdf {
+		display: block;
 	}
 }
 @media screen and (max-width:650px) {

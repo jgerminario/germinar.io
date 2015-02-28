@@ -1,5 +1,6 @@
  <?php get_header(); ?>
- <section class="content">
+ <?php get_sidebar(); ?>
+ <section class="content right-section pt-90">
  	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
  		<article>
  			<h1>
@@ -18,3 +19,4 @@
  <?php endif; ?>
 </section>
 </main>
+<?php get_footer(); ?>
