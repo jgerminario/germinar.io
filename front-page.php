@@ -9,7 +9,7 @@ Template Name: Home
     <header class="top-left top-header">
       <section class="sidebar-header-content">
           <?php get_template_part( 'logo' ); ?>
-          <div class="display-social">
+          <div class="hide" id="socialLinksFixed">
           <?php get_template_part( 'social', 'links'); ?>
           </div>
         </section>
@@ -17,19 +17,21 @@ Template Name: Home
     </aside> 
     <div class="parallax right-section">
       <div class="top-cap">
-        <?php while ( have_posts() ) : the_post(); ?>
-          <?php /* get_template_part( 'content', 'page' ); */ ?>
+         <h1 class="entry-title home-title" id="topTitleFixed"><a href="#portfolio">Full Stack Factotum</a></h1>
+         <h1 class="entry-title home-title hide" id="topTitleScroll"><a href="#portfolio">Full Stack Factotum</a></h1>
+       <?php /* <?php while ( have_posts() ) : the_post(); ?>
           <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
             <header class="entry-header">
               <?php if ( ! is_page_template( 'page-templates/front-page.php' ) ) : ?>
               <?php endif; ?>
-              <h1 class="entry-title home-title"><a href="#portfolio"><?php the_title(); ?></a></h1>
+              <h1 class="entry-title home-title" id="topTitleFixed"><a href="#portfolio"><?php the_title(); ?></a></h1>
+              <h1 class="entry-title home-title hide" id="topTitleScroll"><a href="#portfolio"><?php the_title(); ?></a></h1>
             </header>
             <div class="entry-content">
               <?php the_content(); ?>
             </div>
           </article>
-        <?php endwhile;  ?>
+        <?php endwhile;  ?> */ ?>
       </div>
       <div class="img-wrapper">
         <img class="fullwrap" src="<?php echo get_template_directory_uri(); ?>/imgs/bench.jpg" />

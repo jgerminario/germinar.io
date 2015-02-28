@@ -4,10 +4,13 @@
       <section class="sidebar-header-content">
         <?php get_template_part( 'logo' ); ?>
   <?php else : ?>
-    <header class="top-header">
-      <section class="sidebar-header-content pt-90">
+    <aside class="sidebar">
+      <header class="top-header">
+        <section class="sidebar-header-content pt-90">
   <?php endif; ?>
-      <?php get_template_part( 'social', 'links'); ?>
+      <div id="socialLinksScroll">
+        <?php get_template_part( 'social', 'links'); ?>
+      </div>
     </section>
   </header>
 
