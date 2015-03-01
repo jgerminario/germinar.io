@@ -1,6 +1,6 @@
 window.addEventListener('scroll', function(e){
   // console.log(window.pageYOffset);
-  if (window.pageYOffset > 600) {
+  if (window.pageYOffset > 500) {
     // console.log("Over");
     scrolling(true);
   } else {

@@ -92,10 +92,27 @@ pre {
 	white-space: pre-wrap;
 	padding: 15px 20px;
 }
-
+	
 .front-margin {
 	padding-top: 200px;
 	/*width: 100%;*/
+}
+.a-r {
+	text-align: right;
+}
+.p-tb {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.p-tb-lg {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.two-em {
+	font-size: 2em;
+}
+.two-three-em {
+	font-size: 2.3em;
 }
 			/* SIDEBAR CONTENT */ 
 
@@ -108,6 +125,7 @@ pre {
 	position: absolute;
 	float: left;
 	left: 0;
+	margin-left: 5%;
 	/*background-color: #fff;*/
 }
 .sidebar p {
@@ -121,10 +139,10 @@ pre {
 	left:0;
 	/* </$> */
 	z-index: 4;
+	margin-left: 5%;
 }
 .top-header {
 	width: 225px;
-	padding-left: 40px;
 }
 .sidebar-header-content {
 	width: 200px;
@@ -182,32 +200,83 @@ pre {
 	z-index: 10;
 }
 
+/*
+
+  <$> Snip </$>
+
+
+ */
+
 			/* HOME PAGE */
 
 .home-title {
 	font-size:2.5em;
 	text-align: right;
-	margin-right: 100px;
+	margin-right: 15%;
+}
+.right-title {
+	margin-right: -60px;
+}
+.home-content p {
+	
+}
+.portfolio-items {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.portfolio-items h2 {
+	margin-left: 90px;
+	font-size: 1.5em;
+}
+.portfolio-items img {
+	float:left;
+	padding: 0 20px 0 40px;
+	width: 150px;
+	height: auto;
+}
+.portfolio-items ul {
+	padding-left: 130px;
+}
+.portfolio-item {
+	margin-bottom: 30px;
+}
+.mt-50 {
 	margin-top: 50px;
+}
+.mt-neg {
+	margin-top: -45px;
+}
+.clearfix {
+	clear: both;
 }
 
 .fullwrap {
-	position: fixed;
-	width: 100%;
-	padding-top: 234px;
-	left:0;
-	z-index: 1;
+	min-width: 100%;
+	position: absolute;
+	right: 0;
 }
 .top-cap {
-	height: 234px;
+	height: 142px;
 	width: 100%;
 	position: fixed;
 	right: 0;
 	z-index: 2;
 	background-color: #fff;
 }
+.top-right {
+	width: 100%;
+	position: absolute;
+	right:0;
+	top:0;
+}
 .img-wrapper {
-	height: 100px;
+	padding-top: 122px;
+	position: fixed; 
+	left: 0;
+	height: 500px; 
+	width: 100%;
+	overflow: hidden; 
+	z-index: 1;
 }
 .home-content {
 	width: 100%;
@@ -246,13 +315,15 @@ pre {
 }
 
 .right-section {
-	padding-left: 235px;
-	margin-left: 10%;
-	width: 550px;
+	padding-left: 35%;
+	width: 50%;
+	max-width: 650px;
+}
+.right-home-section {
+	padding-left: 40%;
+	width: 50%;
 }
 
-.content { 
-}
 .content h1 a {
 	color: #a52021;
 	text-decoration: none;
@@ -268,7 +339,7 @@ pre {
 
 }
 .content img {
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 .content .post {
@@ -296,19 +367,18 @@ pre {
 		/* PDF viewer */
 .full-scr-pdf {
 	display: block;
-	width: 700px;
-	height: 900px;
+	margin-left: -70px;
 }
 .mobile-pdf {
 	display: none;
 }
 
 @media screen and (max-width:900px) {
-	.content { 
-		padding-left: 27.64%;
-		margin-left: 10%;
-		width: 55%;
-		padding-top: 90px;
+	.right-section { 
+		padding-left: 45%;
+	}
+	.right-home-section {
+		padding-left: 45%;
 	}
 	.full-scr-pdf {
 		display: none;
@@ -325,10 +395,14 @@ pre {
 		overflow-y: none;
 		margin: 0;
 	}
-	.fixed {
+	.top-header {
 		width: 100%;
-		height: 80px;
+		position: fixed;
+		height: 120px;
 		left: 0;
+	}
+	.sidebar-header-content {
+		width: 100%;
 	}
 	.logo {
 		position: relative;
@@ -337,20 +411,24 @@ pre {
 		margin-left: 5%;
 		width: 180px;
 	}
-	ul.sidelinks {
-		padding-bottom: 25px;
-		padding-left: 40px;
-		display: none;
+	.sidelinks {
+		padding-left: 0;
+		padding-top: 10px;
+		padding-bottom: 15px;
+		margin-right: 10%;
+		float: right;
 	}
-	ul.sidelinks li {
+	.sidelinks ul {
+		padding-right: 4px;
+	}
+	.sidelinks li {
 		display: inline;
-		padding-right: 20px;
+		padding: 0 0 0 31px;
 		font-size: 12px;
 		list-style-type: none;
 	}
 	.social {
-		margin-right: 5%;
-		margin-top: 21px;
+		margin-right: 10%;
 		float: right;
 		margin-left: 0;
 	}
@@ -361,10 +439,61 @@ pre {
 	.content { 
 		width: 90%;
 		padding-left: 0;
-		padding-top: 110px;
+		padding-top: 130px;
 		margin: 0 auto;
 	}
 	.sidebar {
 		width: 0;
+	}
+}
+@media screen and (max-width:475px) {
+	.sidebar-header-content {
+		width: 100%;
+		position: fixed;
+	}
+	.logo {
+		padding-top: 10px;
+		float:none;
+		width: 100%;
+		margin: 0 auto;
+		height: 55px; 
+		padding-bottom: 0;
+		overflow: hidden; 
+		position: static;
+	}
+	.top-left {
+		margin-left: 0;
+	}
+	.sidebar {
+		margin-left: 0;
+	}
+	.sidelinks {
+		margin: 0 auto;
+		float: left;
+		text-align: center;
+		width:48%;
+	}
+	.sidelinks ul {
+		padding-right: 4px;
+		margin: 0 auto;
+	}
+	.sidelinks li {
+		display: inline;
+		padding: 0 10px;
+		font-size: 12px;
+		list-style-type: none;
+	}
+	.social {
+		margin-right: 5%;
+		padding-top: 8px;
+		position: relative;
+		right:0;
+		margin-left: 0;
+	}
+	.content { 
+		width: 90%;
+		padding-left: 0;
+		padding-top: 130px;
+		margin: 0 auto;
 	}
 }
