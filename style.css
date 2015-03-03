@@ -151,6 +151,7 @@ pre {
 .sidebar-header-content {
 	width: 200px;
 	margin: 0 auto;
+	height: 0;
 }
 
 .logo {
@@ -217,12 +218,6 @@ pre {
 	font-size:2.5em;
 	text-align: right;
 	margin-right: 10%;
-}
-.right-title {
-	margin-right: -60px;
-}
-.home-content p {
-	
 }
 .portfolio-items {
 	max-width: 600px;
@@ -328,7 +323,10 @@ pre {
 	padding-left: 35%;
 	width: 50%;
 }
-
+.title-resp {
+	display: none;
+	visibility: hidden;
+}
 .content h1 a {
 	color: #a52021;
 	text-decoration: none;
@@ -396,12 +394,6 @@ pre {
 	.home-title {
 		margin-right: 5%;
 	}
-	.right-title {
-	margin-right: -60px;
-	}
-	.home-content p {
-		
-	}
 	.portfolio-items {
 		max-width: 650px;
 		margin: 0 auto;
@@ -436,6 +428,12 @@ pre {
 		text-align: left;
 		margin-left: 10%;
 	}
+	.title-resp {
+		display: block;
+		visibility: visible;
+		position: absolute;
+		padding-top: 70px;
+	}
 	.mt-50 {
 		margin-top: 70px;
 	}
@@ -454,6 +452,7 @@ pre {
 	.sidebar {
 		max-width: 100%;
 		width: 100%;
+		margin-left: 0;
 	}
 	.sidebar-header-content {
 		width: 100%;
@@ -475,7 +474,7 @@ pre {
 		padding-left: 0;
 		padding-top: 10px;
 		padding-bottom: 15px;
-		margin-right: 10%;
+		margin-right: 8%;
 		float: right;
 	}
 	.sidelinks ul {
@@ -488,13 +487,13 @@ pre {
 		list-style-type: none;
 	}
 	.social {
-		margin-right: 10%;
+		margin-right: 8%;
 		float: right;
 		margin-left: 0;
 		clear: right;
 	}
-	.socialLinksScroll {
-		margin-right: 11px;
+	.socialLinksFixed {
+		margin-right: 23px;
 	}
 	.widget_area {
 		margin-top: 300px;
@@ -531,11 +530,17 @@ pre {
 
 }
 @media screen and (max-width:475px) {
+	main {
+		min-width: 0;
+	}
 	.sidebar-header-content {
 		width: 100%;
 	}
 	.top-header {
 		height: 120px;
+	}
+	.title-resp {
+		padding-top: 10px;
 	}
 
 	.logo {
@@ -560,7 +565,7 @@ pre {
 		margin: 0 auto;
 		float: left;
 		text-align: center;
-		width:48%;
+		width:55%;
 	}
 	.sidelinks ul {
 		padding-right: 4px;
@@ -568,12 +573,12 @@ pre {
 	}
 	.sidelinks li {
 		display: inline;
-		padding: 0 10px;
+		padding: 0 9px;
 		font-size: 12px;
 		list-style-type: none;
 	}
 	.social {
-		margin-right: 5%;
+		margin-right: 0;
 		padding-top: 8px;
 		position: relative;
 		right:0;
@@ -584,5 +589,8 @@ pre {
 		padding-left: 0;
 		padding-top: 80px;
 		margin: 0 auto;
+	}
+	.right-section {
+		padding-top: 120px;
 	}
 }

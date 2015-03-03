@@ -9,7 +9,8 @@ Template Name: Home
   <header class="top-left top-header">
     <section class="sidebar-header-content">
       <?php get_template_part( 'logo' ); ?>
-      <div class="hide" id="socialLinksFixed">
+         <h1 class="entry-title home-title title-resp" id="topTitleResp">Full Stack Factotum</h1>
+      <div class="hide socialLinksFixed" id="socialLinksFixed">
         <?php get_template_part( 'social', 'links'); ?>
       </div>
     </section>
