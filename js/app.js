@@ -1,6 +1,23 @@
+var setImgSize = function(){
+  if (window.innerWidth < 475){
+    imgSize = 380;
+  } else if (window.innerWidth < 650){
+    imgSize = 450;
+  } else {
+    imgSize = 500;
+  }
+};
+
+setImgSize();
+
+window.addEventListener('resize', function(e){
+  setImgSize();
+});
+
+
 window.addEventListener('scroll', function(e){
   // console.log(window.pageYOffset);
-  if (window.pageYOffset > 500) {
+  if (window.pageYOffset > imgSize) {
     // console.log("Over");
     scrolling(true);
   } else {

@@ -8,7 +8,7 @@
       <header class="top-header">
         <section class="sidebar-header-content pt-90">
   <?php endif; ?>
-      <div id="socialLinksScroll">
+      <div id="socialLinksScroll" class="socialLinksScroll">
         <?php get_template_part( 'social', 'links'); ?>
       </div>
     </section>
@@ -20,8 +20,3 @@
     <?php endif; ?>
 	</div>
 </aside>
-<script>
-	jQuery(window).scroll(function(){
-		jQuery('.fixed').css('left',-jQuery(window).scrollLeft());
-	});
-</script>

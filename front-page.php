@@ -42,7 +42,7 @@ Template Name: Home
           <div class="top-right">
             <h1 class="entry-title home-title hide mt-neg" id="topTitleScroll">Full Stack Factotum</h1>
           </div>
-          <p>Web developer with the penetrating mind of an engineer, a growth marketer's instinct for scaling great products—and, for the right mission, an unmatchable drive to deliver the best, soonest.</p>
+          <p>Software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
 
           <p>I am most at home at the edge of my comfort zone:</p>
 
@@ -50,16 +50,17 @@ Template Name: Home
           <p> *  Built and released a Ruby CLI code snippet gem three weeks after learning Ruby.</p>
           <p> *  Pitched a renters' rights app to a packed auditorium to win third place among 95 teams in the Accelerate 2015 hackathon, after leading our team's development and product efforts over two days.</p>
 
-          <p>A former writer, elegant code composition and concision is second nature to me. I have eagle eyes for the tiny errors that cause bug hunting ordeals.</p>
-
-          <p>Fresh out of 1,000 hours of constant, intensive code study, I am looking for a challenge. 'Cutting-edge' will pique my curiosity, especially from a small and agile team.</p>
+          <p>Fresh out of 1,000 hours of constant, intensive code study, I am looking for a challenge, especially from a small and agile team.</p>
 
           <!-- desktop -->
-          <object class="full-scr-pdf" data="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf" type="application/pdf" width="850" height="500">
+<!--           <object class="full-scr-pdf" data="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf#view=FitH" type="application/pdf" width="50%" height="50%">
+              <param name="zoom" value="50%" />
+              <param name="src" value="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf?#view=FitH" />
+              <param name="type" value="application/pdf" /> -->
             <h2><a href="https://drive.google.com/file/d/0B4oYHWoyxHvORmY2bTFEUUVyQ2c/view?usp=sharing" target="_blank">View resume »</a></h2>
-          </object>
+          <!-- </object> -->
           <!-- mobile -->
-          <h2><a class="mobile-pdf" href="https://drive.google.com/file/d/0B4oYHWoyxHvORmY2bTFEUUVyQ2c/view?usp=sharing" target="_blank">View resume »</a></h2>
+    <!--       <h2><a class="mobile-pdf" href="https://drive.google.com/file/d/0B4oYHWoyxHvORmY2bTFEUUVyQ2c/view?usp=sharing" target="_blank">View resume »</a></h2> -->
           
           <a name="portfolio"></a>
           <h1 class="p-tb-lg two-three-em right-title">Portfolio</h1>
@@ -73,7 +74,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team lead and technical architect for this week-long final project</li>
-                <li>Websites: Heroku deployment, GitHub, Google App Store (alpha version)</li>
+                <li>Websites: <a href="http://upstarter-client.herokuapp.com">Heroku deployment</a>, <a href="https://github.com/jgerminario/upstarter">GitHub</a></li>
                 <li>Languages: Javascript</li>
                 <li>Front-end: Angular/Ionic</li>
                 <li>Back-end: Node.js/Express</li>
@@ -91,7 +92,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Technical and product lead for two day Accelerate 2015 hackathon, leading team to 3rd place among 95 teams</li>
-                <li>Websites: GitHub, Heroku</li>
+                <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app">GitHub</a>, <a href="http://noplacelikehome.co">Heroku</a></li>
                 <li>Languages: Ruby, Javascript</li>
                 <li>Front-end: Angular</li>
                 <li>Back-end: Sinatra</li>
@@ -102,11 +103,11 @@ Template Name: Home
 
             <article class="portfolio-item">
               <h2>Snip</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference.</p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—over 750 downloads.</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team leader for initial work, solo contributor for ongoing development
-                <li>Websites: RubyGems, GitHub</li>
+                <li>Websites: <a href="https://rubygems.org/gems/snipgem">RubyGems</a>, <a href="https://github.com/jgerminario/snip">GitHub</a></li>
                 <li>Languages: Ruby</li>
                 <li>Environment: CLI/filesystem</li>
               </ul>
@@ -118,9 +119,9 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: All development and design (solo project)</li>
-                <li>Websites: GitHub, Heroku deployment</li>
+                <li>Websites: <a href="https://github.com/jgerminario/wakely">GitHub</a></li>
                 <li>Languages: Javascript, Ruby</li>
-                <li>Front-end: Javascript + ERB (server-side rendering)</li>
+                <li>Front-end: Native Javascript + ERB (server-side rendering)</li>
                 <li>Back-end: Sinatra</li>
                 <li>Database: PostgreSQL</li>
                 <li>APIs: Google Maps, Twitter oAuth</li>
@@ -134,7 +135,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: All development, UX/graphic design and marketing (SEO, SEM, content)</li>
-                <li>Websites: Live site (Bluehost-hosted)</li>
+                <li>Websites: <a href="http://www.newjerseypatentlaw.com">Live site (Bluehost-hosted)</a>, <a href="https://github.com/jgerminario/newjerseypatentlaw">GitHub (template)</a></li>
                 <li>Languages: HTML, CSS, PHP, Javascript</li>
                 <li>Back-end: WordPress CMS</li>
                 <li>Database: MySQL</li>
