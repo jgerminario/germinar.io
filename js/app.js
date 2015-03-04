@@ -12,8 +12,17 @@ setImgSize();
 
 window.addEventListener('resize', function(e){
   setImgSize();
+  if (window.pageYOffset > imgSize) {
+    // console.log("Over");
+    scrolling(true, imgSize);
+  } else {
+    scrolling(false, imgSize);
+  }
+  var topTitleRespClass = document.getElementById('topTitleResp');
+  if (imgSize == 500){
+    topTitleRespClass.style.display = "none";
+  } 
 });
-
 
 window.addEventListener('scroll', function(e){
   // console.log(window.pageYOffset);

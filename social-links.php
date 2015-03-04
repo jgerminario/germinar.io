@@ -1,8 +1,10 @@
 <nav class="sidelinks">
   <ul>
-    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">about</a></li>
-    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#portfolio">portfolio</a></li>
-    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog">blog</a></li>
+    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>" target="_parent">about</a></li>
+    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#portfolio" 
+target="_parent">portfolio</a></li>
+    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog" 
+target="_parent">blog</a></li>
   </ul>
 </nav>
 <div class="social">
