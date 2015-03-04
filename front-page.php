@@ -75,7 +75,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team lead and technical architect for this week-long final project</li>
-                <li>Websites: <a href="http://upstarter-client.herokuapp.com">Heroku deployment</a>, <a href="https://github.com/jgerminario/upstarter">GitHub</a></li>
+                <li>Websites: <a href="http://upstarter-client.herokuapp.com" target="_blank">Heroku deployment</a>, <a href="https://github.com/jgerminario/upstarter" target="_blank">GitHub</a></li>
                 <li>Languages: Javascript</li>
                 <li>Front-end: Angular/Ionic</li>
                 <li>Back-end: Node.js/Express</li>
@@ -93,7 +93,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Technical and product lead for two day Accelerate 2015 hackathon, leading team to 3rd place among 95 teams</li>
-                <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app">GitHub</a>, <a href="http://noplacelikehome.co">Heroku</a></li>
+                <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku</a></li>
                 <li>Languages: Ruby, Javascript</li>
                 <li>Front-end: Angular</li>
                 <li>Back-end: Sinatra</li>
@@ -108,7 +108,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team leader for initial work, solo contributor for ongoing development
-                <li>Websites: <a href="https://rubygems.org/gems/snipgem">RubyGems</a>, <a href="https://github.com/jgerminario/snip">GitHub</a></li>
+                <li>Websites: <a target="_blank" href="https://rubygems.org/gems/snipgem">RubyGems</a>, <a target="_blank" href="https://github.com/jgerminario/snip">GitHub</a></li>
                 <li>Languages: Ruby</li>
                 <li>Environment: CLI/filesystem</li>
               </ul>
@@ -120,7 +120,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: All development and design (solo project)</li>
-                <li>Websites: <a href="https://github.com/jgerminario/wakely">GitHub</a></li>
+                <li>Websites: <a target="_blank" href="https://github.com/jgerminario/wakely">GitHub</a></li>
                 <li>Languages: Javascript, Ruby</li>
                 <li>Front-end: Native Javascript + ERB (server-side rendering)</li>
                 <li>Back-end: Sinatra</li>
@@ -136,7 +136,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: All development, UX/graphic design and marketing (SEO, SEM, content)</li>
-                <li>Websites: <a href="http://www.newjerseypatentlaw.com">Live site (Bluehost-hosted)</a>, <a href="https://github.com/jgerminario/newjerseypatentlaw">GitHub (template)</a></li>
+                <li>Websites: <a target="_blank" href="http://www.newjerseypatentlaw.com">Live site (Bluehost-hosted)</a>, <a target="_blank" href="https://github.com/jgerminario/newjerseypatentlaw">GitHub (template)</a></li>
                 <li>Languages: HTML, CSS, PHP, Javascript</li>
                 <li>Back-end: WordPress CMS</li>
                 <li>Database: MySQL</li>
