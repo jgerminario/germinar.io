@@ -45,11 +45,11 @@ Template Name: Home
           </div>
           <p>Software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
 
-          <p>I am most at home at the edge of my comfort zone:</p>
+          <p>I do my best work at the <a href="http://germinar.io/2015/02/19/learning-engineering-bootcamp/">edge of my comfort zone</a>:</p>
 
-          <p> *  Learned Node, Mongo, Express, Angular and Ionic from scratch in one week to build Upstarter, a robust mobile app that helps job hunters choose from over 90,000 startups.</p>
-          <p> *  Built and released a Ruby CLI code snippet gem three weeks after learning Ruby.</p>
-          <p> *  Pitched a renters' rights app to a packed auditorium to win third place among 95 teams in the Accelerate 2015 hackathon, after leading our team's development and product efforts over two days.</p>
+          <p> *  Learned Node, Mongo, Express, Angular and Ionic from scratch in one week to build <a href="https://github.com/jgerminario/upstarter" target="_blank">Upstarter</a>, a robust mobile app that helps job hunters choose from over 90,000 startups.</p>
+          <p> *  Built and released an <a href="https://github.com/jgerminario/snip">open source code snippet gem</a> three weeks after learning Ruby.</p>
+          <p> *  Pitched a <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">renters' rights app</a> to a packed auditorium to win third place among 95 teams in the Developer Week 2015 hackathon, after leading our team's development and product efforts over two days.</p>
 
           <p>Fresh out of 1,000 hours of constant, intensive code study, I am looking for a challenge, especially from a small and agile team.</p>
 
@@ -89,10 +89,10 @@ Template Name: Home
 
             <article class="portfolio-item">
               <h2>No Place Like Home</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A mobile app providing job-hunters investor-grade insight into the heated startup market.</p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them response to landlord buyout offers.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: Technical and product lead for two day Accelerate 2015 hackathon, leading team to 3rd place among 95 teams</li>
+                <li>Role: Technical and product lead for two day Developer Week 2015 hackathon, leading team to 3rd place among 95 teams</li>
                 <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku (live deployment)</a></li>
                 <li>Languages: Ruby, Javascript</li>
                 <li>Front-end: Angular</li>
