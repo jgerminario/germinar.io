@@ -75,7 +75,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team lead and technical architect for this week-long final project</li>
-                <li>Websites: <a href="http://upstarter-client.herokuapp.com" target="_blank">Heroku deployment</a>, <a href="https://github.com/jgerminario/upstarter" target="_blank">GitHub</a></li>
+                <li>Websites: <a href="http://upstarter-client.herokuapp.com" target="_blank">Heroku (live deployment)</a>, <a href="https://github.com/jgerminario/upstarter" target="_blank">GitHub</a></li>
                 <li>Languages: Javascript</li>
                 <li>Front-end: Angular/Ionic</li>
                 <li>Back-end: Node.js/Express</li>
@@ -93,7 +93,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Technical and product lead for two day Accelerate 2015 hackathon, leading team to 3rd place among 95 teams</li>
-                <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku</a></li>
+                <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku (live deployment)</a></li>
                 <li>Languages: Ruby, Javascript</li>
                 <li>Front-end: Angular</li>
                 <li>Back-end: Sinatra</li>
@@ -104,7 +104,7 @@ Template Name: Home
 
             <article class="portfolio-item">
               <h2>Snip</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—over 750 downloads.</p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—nearly 1,000 downloads.</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team leader for initial work, solo contributor for ongoing development
@@ -120,7 +120,7 @@ Template Name: Home
               <div class="clearfix"></div>
               <ul>
                 <li>Role: All development and design (solo project)</li>
-                <li>Websites: <a target="_blank" href="https://github.com/jgerminario/wakely">GitHub</a></li>
+                <li>Websites: <a target="_blank" href="http://wakely.herokuapp.com">Heroku (live deployment)</a>, <a target="_blank" href="https://github.com/jgerminario/wakely">GitHub</a></li>
                 <li>Languages: Javascript, Ruby</li>
                 <li>Front-end: Native Javascript + ERB (server-side rendering)</li>
                 <li>Back-end: Sinatra</li>
