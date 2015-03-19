@@ -43,15 +43,19 @@ Template Name: Home
           <div class="top-right">
             <h1 class="entry-title home-title hide mt-neg" id="topTitleScroll">Full Stack Factotum</h1>
           </div>
-          <p>Software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
+          <p>I'm a software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
 
           <p>I do my best work at the <a href="http://germinar.io/2015/02/19/learning-engineering-bootcamp/">edge of my comfort zone</a>:</p>
 
-          <p> *  Learned Node, Mongo, Express, Angular and Ionic from scratch in one week to build <a href="https://github.com/jgerminario/upstarter" target="_blank">Upstarter</a>, a robust mobile app that helps job hunters choose from over 90,000 startups.</p>
+          <p> *  Learned Node, Mongo, Express, Angular and Ionic from scratch in one week to lead a team to build <a href="https://github.com/jgerminario/upstarter" target="_blank">Upstarter</a>, a mobile app that helps job hunters choose from over 90,000 startups.</p>
           <p> *  Built and released an <a href="https://github.com/jgerminario/snip">open source code snippet gem</a> three weeks after learning Ruby.</p>
           <p> *  Pitched a <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">renters' rights app</a> to a packed auditorium to win third place among 95 teams in the Developer Week 2015 hackathon, after leading our team's development and product efforts over two days.</p>
 
-          <p>Fresh out of 1,000 hours of constant, intensive code study, I am looking for a challenge, especially from a small and agile team.</p>
+          <p>As a former startup growth marketer, I rose through four specialist and leadership positions in two and a half years, with a progressively more technical and product-oriented focus. I work hard for the right cause.</p>
+
+          <p>As a recent coding bootcamp graduate, I know more than specific technologies—I know how software is built, how to think about technical problems, and how to collaborate on code. I've delivered five fully-functional apps, gems and websites in the past four months, independently or as the leader of team projects. I learn fast and ship faster.</p>
+
+          <p>Fresh out of 1,000 hours of constant, intensive code bootcamp study, I am looking for a challenge, especially from a small and agile team advancing mental health, education, marketing tech or healthcare.</p>
 
           <!-- desktop -->
 <!--           <object class="full-scr-pdf" data="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf#view=FitH" type="application/pdf" width="50%" height="50%">
@@ -74,15 +78,30 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/upstarter.png" alt="Upstarter"/>A mobile app providing job-hunters investor-grade insight into the heated startup market.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: Team lead and technical architect for this week-long final project</li>
+                <li>Role: Team lead, backend/database engineer and technical architect for this week-long final project</li>
                 <li>Websites: <a href="http://upstarter-client.herokuapp.com" target="_blank">Heroku (live deployment)</a>, <a href="https://github.com/jgerminario/upstarter" target="_blank">GitHub</a></li>
                 <li>Languages: Javascript</li>
                 <li>Front-end: Angular/Ionic</li>
                 <li>Back-end: Node.js/Express</li>
                 <li>Database: MongoDB + Mongoose ORM</li>
                 <li>APIs: LinkedIn oAuth, Crunchbase API</li>
-                <li>Additional techniques: Geospatial querying using MongoDB, Node.js background jobs, algorithm development for startup 'Momentum Score'
+                <li>Additional technology: Geospatial querying using MongoDB, Node.js background jobs, algorithm development for startup 'Momentum Score'
                 </li>
+              </ul>
+            </article>
+              
+              <h2>Happ</h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/happ.png" alt="Happ"/>A mobile app to help patients with life-changing illnesses to maintain a positive mental and behavioral outlook.</p>
+              <div class="clearfix"></div>
+              <ul>
+                <li>Role: Team lead and data visualization engineer, led team to win 5th place in Philips HealthSuite Hackathon</li>
+                <li>Websites: <a href="https://github.com/philipshackathon2015" target="_blank">GitHub organization (five interlinked apps built over the weekend)</a>, <a href="https://github.com/philipshackathon2015/visualizations" target="_blank">data visualization component</a>, <a href="https://drive.google.com/file/d/0B4oYHWoyxHvOU1JHM1RRRk1qT3c/view" target="_blank">pitch deck</a></li>
+                <li>Languages: Javascript</li>
+                <li>Front-end: Angular/Ionic</li>
+                <li>Back-end: Node.js</li>
+                <li>Database: MongoDB</li>
+                <li>APIs: Twitter and Facebook</li>
+                <li>Additional technology: HP sentiment analysis for parsing user's social feed.</li>
               </ul>
             </article>
   
@@ -92,7 +111,7 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them response to landlord buyout offers.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: Technical and product lead for two day Developer Week 2015 hackathon, leading team to 3rd place among 95 teams</li>
+                <li>Role: Technical/product lead and full-stack engineer for two day Developer Week 2015 hackathon, led team to win 3rd place among 95 teams</li>
                 <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku (live deployment)</a></li>
                 <li>Languages: Ruby, Javascript</li>
                 <li>Front-end: Angular</li>
@@ -107,7 +126,7 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—nearly 1,000 downloads.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: Team leader for initial work, solo contributor for ongoing development
+                <li>Role: Team lead for initial work, solo engineering contributor for ongoing development
                 <li>Websites: <a target="_blank" href="https://rubygems.org/gems/snipgem">RubyGems</a>, <a target="_blank" href="https://github.com/jgerminario/snip">GitHub</a></li>
                 <li>Languages: Ruby</li>
                 <li>Environment: CLI/filesystem</li>
@@ -119,7 +138,7 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/wakely.png" alt="Wakely"/>A web app designed to embarrass you out of bed in the morning, using the Twitter API.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: All development and design (solo project)</li>
+                <li>Role: All development (full-stack) and design (solo project)</li>
                 <li>Websites: <a target="_blank" href="http://wakely.herokuapp.com">Heroku (live deployment)</a>, <a target="_blank" href="https://github.com/jgerminario/wakely">GitHub</a></li>
                 <li>Languages: Javascript, Ruby</li>
                 <li>Front-end: Native Javascript + ERB (server-side rendering)</li>
