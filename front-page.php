@@ -90,8 +90,9 @@ Template Name: Home
               </ul>
             </article>
               
+            <article>
               <h2>Happ</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/happ.png" alt="Happ"/>A mobile app to help patients with life-changing illnesses to maintain a positive mental and behavioral outlook.</p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/happ.png" alt="Happ"/>A mobile app that helps patients with life-changing illnesses maintain a positive mental and behavioral outlook.</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Team lead and data visualization engineer, led team to win 5th place in Philips HealthSuite Hackathon</li>
