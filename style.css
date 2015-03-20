@@ -75,6 +75,9 @@ ul {
 ul ul {
 	padding-bottom: 0;
 }
+ul.normal li {
+	margin-left: 20px;
+}
 a:visited, a:link {
 	color: #005517;
 }
