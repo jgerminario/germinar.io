@@ -109,7 +109,7 @@ Template Name: Home
 
             <article class="portfolio-item">
               <h2>No Place Like Home</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them response to landlord buyout offers.</p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them respond to landlord buyout offers.</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Role: Technical/product lead and full-stack engineer for two day Developer Week 2015 hackathon, led team to win 3rd place among 95 teams</li>
@@ -136,7 +136,7 @@ Template Name: Home
 
             <article class="portfolio-item">
               <h2>Wakely</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/wakely.png" alt="Wakely"/>A web app designed to embarrass you out of bed in the morning, using the Twitter API.</p>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/wakely.png" alt="Wakely"/>A web app designed to embarrass you out of bed in the morning, using Twitter oAuth.</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Role: All development (full-stack) and design (solo project)</li>
