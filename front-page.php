@@ -43,7 +43,7 @@ Template Name: Home
           <div class="top-right">
             <h1 class="entry-title home-title hide mt-neg" id="topTitleScroll">Full Stack Factotum</h1>
           </div>
-          <p>I'm a software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
+          <p>I am a software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
 
           <p>I do my best work at the <a href="http://germinar.io/2015/02/19/learning-engineering-bootcamp/">edge of my comfort zone</a>:</p>
           <ul class="normal">
@@ -51,11 +51,11 @@ Template Name: Home
             <li>Built and released an <a href="https://github.com/jgerminario/snip">open source code snippet gem</a> three weeks after learning Ruby.</li>
             <li>Pitched a <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">renters' rights app</a> to a packed auditorium to win third place among 95 teams in the Developer Week 2015 hackathon, after leading our team's development and product efforts over two days.</li>
           </ul>
-          <p>As a former startup growth marketer, I rose through four specialist and leadership positions in two and a half years, with a progressively more technical and product-oriented focus. I work hard for the right cause.</p>
+          <p>As a former startup growth marketer, I rose through four specialist and leadership positions in two and a half years, with a progressively more technical and product-oriented focus. I work hard for the right product.</p>
 
           <p>As a recent coding bootcamp graduate, I know more than specific technologies—I know how software is built, how to think about technical problems, and how to collaborate on code. I've delivered five fully-functional apps, gems and websites in the past four months, independently or as the leader of team projects. I learn fast and ship faster.</p>
 
-          <p>Fresh out of 1,000 hours of constant, intensive code bootcamp study, I am looking for a challenge, especially from a small and agile team advancing mental health, education, marketing tech or healthcare:<br/> jgerminario [at] gmail [dot] com</p>
+          <p>Fresh out of 1,000 hours of constant, intensive code bootcamp study, I am looking for a challenge, especially from a fast-moving, agile team:<br/> jgerminario [at] gmail [dot] com</p>
 
           <!-- desktop -->
 <!--           <object class="full-scr-pdf" data="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf#view=FitH" type="application/pdf" width="50%" height="50%">
