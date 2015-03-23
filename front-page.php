@@ -55,7 +55,7 @@ Template Name: Home
 
           <p>As a recent coding bootcamp graduate, I know more than specific technologies—I know how software is built, how to think about technical problems, and how to collaborate on code. I've delivered five fully-functional apps, gems and websites in the past four months, independently or as the leader of team projects. I learn fast and ship faster.</p>
 
-          <p>Fresh out of 1,000 hours of constant, intensive code bootcamp study, I am looking for a challenge, especially from a fast-moving, agile team:<br/> jgerminario [at] gmail [dot] com</p>
+          <p>Fresh out of 1,000 hours of constant, intensive code bootcamp study, I am looking for a challenge, especially from a fast-moving, agile team: jgerminario [at] gmail [dot] com</p>
 
           <!-- desktop -->
 <!--           <object class="full-scr-pdf" data="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf#view=FitH" type="application/pdf" width="50%" height="50%">
