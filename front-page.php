@@ -62,7 +62,7 @@ Template Name: Home
               <param name="zoom" value="50%" />
               <param name="src" value="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf?#view=FitH" />
               <param name="type" value="application/pdf" /> -->
-            <h2><a href="https://drive.google.com/file/d/0B4oYHWoyxHvORmY2bTFEUUVyQ2c/view?usp=sharing" target="_blank">View resume »</a></h2>
+            <h2><a href="https://drive.google.com/file/d/0B4oYHWoyxHvOa19FVk51dGNVZXc/view?usp=sharing" target="_blank">View resume »</a></h2>
           <!-- </object> -->
           <!-- mobile -->
     <!--       <h2><a class="mobile-pdf" href="https://drive.google.com/file/d/0B4oYHWoyxHvORmY2bTFEUUVyQ2c/view?usp=sharing" target="_blank">View resume »</a></h2> -->
@@ -73,12 +73,31 @@ Template Name: Home
           <section class="portfolio-items">
 
             <article class="portfolio-item">
-            
+                  
+              <h2>Career Bootcamp</h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/careerbootcamp.png" alt="Career Bootcamp"/>A web app helping job hunting engineers prepare for common, crowdsourced technical interview questions.</p>
+              <div class="clearfix"></div>
+              <ul>
+                <li>Timeframe: March 2015-present</li>
+                <li>Role: Cofounder and full-stack developer in ongoing two-person project</li>
+                <li>Websites: <a href="http://careerbootcamp.herokuapp.com/ycdemo" target="_blank">Heroku (live alpha deployment with test account)</a>, <a href="https://www.youtube.com/watch?v=4kUzXMrG0r8">demo video</a>, <a href="https://github.com/shinshinwu/career-bootcamp" target="_blank">GitHub</a></li>
+                <li>Languages: JavaScript, Ruby</li>
+                <li>Front-end: Rails server-side rendering, JavaScript, Pure CSS</li>
+                <li>Back-end: Rails</li>
+                <li>Database: PostgresSQL</li>
+                <li>Data storage: Amazon S3</li>
+                <li>Additional technology: HTML5 getUserMedia API, record widget functionality and Record.js with OGG compression</li>
+              </ul>
+            </article>
+
+            <article class="portfolio-item">
+                      
               <h2>Upstarter</h2>
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/upstarter.png" alt="Upstarter"/>A mobile app providing job-hunters investor-grade insight into the heated startup market.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: Team lead, backend/database engineer and technical architect for this week-long final project</li>
+                <li>Timeframe: Week-long final project, January 2015, plus ongoing development</li>
+                <li>Role: Team lead, backend/database engineer and technical architect</li>
                 <li>Websites: <a href="http://upstarter-client.herokuapp.com" target="_blank">Heroku (live deployment)</a>, <a href="https://github.com/jgerminario/upstarter" target="_blank">GitHub</a></li>
                 <li>Languages: Javascript</li>
                 <li>Front-end: Angular/Ionic</li>
@@ -89,12 +108,13 @@ Template Name: Home
                 </li>
               </ul>
             </article>
-              
-            <article>
+
+            <article class="portfolio-item">
               <h2>Happ</h2>
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/happ.png" alt="Happ"/>A mobile app that helps patients with life-changing illnesses maintain a positive mental and behavioral outlook.</p>
               <div class="clearfix"></div>
               <ul>
+                <li>Timeframe: Two day hackathon project, March 2015</li>
                 <li>Role: Team lead and data visualization engineer, led team to win 5th place in Philips HealthSuite Hackathon</li>
                 <li>Websites: <a href="https://github.com/philipshackathon2015" target="_blank">GitHub organization (five interlinked apps built over the weekend)</a>, <a href="https://github.com/philipshackathon2015/visualizations" target="_blank">data visualization component</a>, <a href="https://drive.google.com/file/d/0B4oYHWoyxHvOU1JHM1RRRk1qT3c/view" target="_blank">pitch deck</a></li>
                 <li>Languages: Javascript</li>
@@ -112,6 +132,7 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them respond to landlord buyout offers.</p>
               <div class="clearfix"></div>
               <ul>
+                <li>Timeframe: Two day hackathon project, February 2015, plus ongoing development</li>
                 <li>Role: Technical/product lead and full-stack engineer for two day Developer Week 2015 hackathon, led team to win 3rd place among 95 teams</li>
                 <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku (live deployment)</a></li>
                 <li>Languages: Ruby, Javascript</li>
@@ -127,7 +148,8 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—nearly 1,000 downloads.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Role: Team lead for initial work, solo engineering contributor for ongoing development
+                <li>Timeframe: December 2014-January 2015 (solo independent project)</li>
+                <li>Role: Team lead for initial work, solo engineering contributor for ongoing development</li>
                 <li>Websites: <a target="_blank" href="https://rubygems.org/gems/snipgem">RubyGems</a>, <a target="_blank" href="https://github.com/jgerminario/snip">GitHub</a></li>
                 <li>Languages: Ruby</li>
                 <li>Environment: CLI/filesystem</li>
@@ -139,6 +161,7 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/wakely.png" alt="Wakely"/>A web app designed to embarrass you out of bed in the morning, using Twitter oAuth.</p>
               <div class="clearfix"></div>
               <ul>
+                <li>Timeframe: December 2014</li>
                 <li>Role: All development (full-stack) and design (solo project)</li>
                 <li>Websites: <a target="_blank" href="http://wakely.herokuapp.com">Heroku (live deployment)</a>, <a target="_blank" href="https://github.com/jgerminario/wakely">GitHub</a></li>
                 <li>Languages: Javascript, Ruby</li>
@@ -155,8 +178,23 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/njpl.png" alt="New Jersey Patent Law"/>A responsive, WordPress-integrated website for the law firm of Thomas J Germinario.</p>
               <div class="clearfix"></div>
               <ul>
+                <li>Timeframe: September-October 2014</li>
                 <li>Role: All development, UX/graphic design and marketing (SEO, SEM, content)</li>
                 <li>Websites: <a target="_blank" href="http://www.newjerseypatentlaw.com">Live site (Bluehost-hosted)</a>, <a target="_blank" href="https://github.com/jgerminario/newjerseypatentlaw">GitHub (template)</a></li>
+                <li>Languages: HTML, CSS, PHP, Javascript</li>
+                <li>Back-end: WordPress CMS</li>
+                <li>Database: MySQL</li>
+              </ul>
+            </article>
+
+            <article class="portfolio-item">
+              <h2>Germinar.io</h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/germinario-port.png" alt="Germinar.io"/>My responsive professional portfolio site (where you are right now).</p>
+              <div class="clearfix"></div>
+              <ul>
+                <li>Timeframe: November 2014-February 2015</li>
+                <li>Role: All design and development</li>
+                <li>Websites: <a href="http://germinar.io" target="_blank">Live deployment (Bluehost)</a>, <a target="_blank" href="https://github.com/jgerminario/germinario">GitHub (template)</a></li>
                 <li>Languages: HTML, CSS, PHP, Javascript</li>
                 <li>Back-end: WordPress CMS</li>
                 <li>Database: MySQL</li>
