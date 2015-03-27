@@ -116,7 +116,7 @@ Template Name: Home
               <ul>
                 <li>Timeframe: Two day hackathon project, March 2015</li>
                 <li>Role: Team lead and data visualization engineer, led team to win 5th place in Philips HealthSuite Hackathon</li>
-                <li>Websites: <a href="https://github.com/philipshackathon2015" target="_blank">GitHub organization (five interlinked apps built over the weekend)</a>, <a href="https://github.com/philipshackathon2015/visualizations" target="_blank">data visualization component</a>, <a href="https://drive.google.com/file/d/0B4oYHWoyxHvOU1JHM1RRRk1qT3c/view" target="_blank">pitch deck</a></li>
+                <li>Websites: <a href="https://github.com/philipshackathon2015" target="_blank">GitHub organization (five interlinked apps built over the weekend)</a>, <a href="http://happ-vis.herokuapp.com/" target="_blank">data visualization component (live deployment)</a>, <a href="https://drive.google.com/file/d/0B4oYHWoyxHvOU1JHM1RRRk1qT3c/view" target="_blank">pitch deck</a></li>
                 <li>Languages: Javascript</li>
                 <li>Front-end: Angular/Ionic</li>
                 <li>Back-end: Node.js</li>
