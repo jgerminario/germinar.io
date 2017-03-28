@@ -248,8 +248,8 @@ pre {
 .mt-50 {
 	margin-top: 50px;
 }
-.mt-neg {
-	margin-top: -45px;
+.mt-25 {
+	margin-top: 25px;
 }
 .clearfix {
 	clear: both;
@@ -315,7 +315,7 @@ pre {
 
 			/* CONTENT AREA */ 
 .pt-90 {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 .right-section {

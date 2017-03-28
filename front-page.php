@@ -9,7 +9,7 @@ Template Name: Home
   <header class="top-left top-header">
     <section class="sidebar-header-content">
       <?php get_template_part( 'logo' ); ?>
-         <h1 class="entry-title home-title title-resp" id="topTitleResp">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
+         <h1 class="entry-title home-title title-resp" id="topTitleResp">Jesse Germinario</h1>
       <div class="hide socialLinksFixed" id="socialLinksFixed">
         <?php get_template_part( 'social', 'links'); ?>
       </div>
@@ -18,7 +18,7 @@ Template Name: Home
 </aside> 
 <div class="right-home-section">
   <div class="top-cap" id="topTitleFixed">
-   <h1 class="entry-title home-title mt-50">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
+   <h1 class="entry-title home-title mt-50">Jesse Germinario</h1>
 
        <?php /* <?php while ( have_posts() ) : the_post(); ?>
           <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -41,7 +41,7 @@ Template Name: Home
         <?php get_sidebar(); ?>
         <section class="content right-home-section pt-90">
           <div class="top-right">
-            <h1 class="entry-title home-title hide mt-neg" id="topTitleScroll">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
+            <h1 class="entry-title home-title mt-25" id="topTitleScroll">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
           </div>
           <p>I've been around the block (or three). I started in tech as a copywriter, establishing a brand voice for a growing healthtech startup and bylining articles for Forbes, VentureBeat and FastCompany. I moved into product marketing management and nearly quadrupled traffic to a patient health portal with a tight go-to-market strategy and a drumbeat of growth hacks.</p>
 
@@ -147,7 +147,7 @@ Template Name: Home
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—nearly 1,000 downloads.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Timeframe: December 2014-January 2015 (solo independent project)</li>
+                <li>Timeframe: December 2014-January 2015</li>
                 <li>Role: Team/product lead for initial work, solo engineering contributor for ongoing development</li>
                 <li>Achievements: Downloaded over 3,000 times on <a target="_blank" href="https://rubygems.org/gems/snipgem">RubyGems</a></li>
                 <li>Technologies: Ruby, BASH</li>

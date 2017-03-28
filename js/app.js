@@ -43,7 +43,7 @@ var scrolling = function (funBool, imgSize){
   if (funBool == true){
     // console.log("this")
     socialLinksFixedClass.style.display = "block";
-    topTitleScrollClass.style.display = "block";
+    // topTitleScrollClass.style.display = "block";
     socialLinksScrollClass.style.display = "none";
     topTitleFixedClass.style.display = "none";
     topTitleRespClass.style.display = "none";
@@ -51,7 +51,7 @@ var scrolling = function (funBool, imgSize){
     socialLinksScrollClass.style.display = "block";
     topTitleFixedClass.style.display = "block";
     socialLinksFixedClass.style.display = "none";
-    topTitleScrollClass.style.display = "none";
+    // topTitleScrollClass.style.display = "none";
     if (imgSize != 500){
       topTitleRespClass.style.display = "block";
     }
