@@ -9,7 +9,7 @@ Template Name: Home
   <header class="top-left top-header">
     <section class="sidebar-header-content">
       <?php get_template_part( 'logo' ); ?>
-         <h1 class="entry-title home-title title-resp" id="topTitleResp">Full Stack Factotum</h1>
+         <h1 class="entry-title home-title title-resp" id="topTitleResp">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
       <div class="hide socialLinksFixed" id="socialLinksFixed">
         <?php get_template_part( 'social', 'links'); ?>
       </div>
@@ -18,7 +18,7 @@ Template Name: Home
 </aside> 
 <div class="right-home-section">
   <div class="top-cap" id="topTitleFixed">
-   <h1 class="entry-title home-title mt-50" >Full Stack Factotum</h1>
+   <h1 class="entry-title home-title mt-50">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
 
        <?php /* <?php while ( have_posts() ) : the_post(); ?>
           <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -41,31 +41,23 @@ Template Name: Home
         <?php get_sidebar(); ?>
         <section class="content right-home-section pt-90">
           <div class="top-right">
-            <h1 class="entry-title home-title hide mt-neg" id="topTitleScroll">Full Stack Factotum</h1>
+            <h1 class="entry-title home-title hide mt-neg" id="topTitleScroll">People&nbsp;&nbsp;>&nbsp;&nbsp;Product</h1>
           </div>
-          <p>I am a software engineer with the penetrating mind of a former philosophy major, the attention to detail and organizational craft of a writer, and the get-it-done mentality of an experienced startup veteran.</p>
+          <p>I've been around the block (or three). I started in tech as a copywriter, establishing a brand voice for a growing healthtech startup and bylining articles for Forbes, VentureBeat and FastCompany. I moved into product marketing management and nearly quadrupled traffic to a patient health portal with a tight go-to-market strategy and a drumbeat of growth hacks.</p>
 
-          <p>I do my best work at the <a href="http://germinar.io/2015/02/19/learning-engineering-bootcamp/">edge of my comfort zone</a>:</p>
+          <p>Sensing that code can be mightier than words, I attended a 9-week intensive programming bootcamp, where I conceived and delivered five fully-functional apps—sometimes independently, mostly as a product or team lead. Since then I've coupled coding with marketing as the director of a hyper-lean marketing team of two at Elevate Labs. We do our own technical stunts, automate relentlessly and test incessantly.</p>
+
+          <p>I'm a product generalist at heart, though. Nothing has as much unexplored potential to improve people's lives as the products we're capable of building today. I want to see them do more with harder problems:</p>
           <ul class="normal">
-            <li>Learned Node, Mongo, Express, Angular and Ionic from scratch in one week to lead a team to build <a href="https://github.com/jgerminario/upstarter" target="_blank">Upstarter</a>, a mobile app that helps job hunters choose from over 90,000 startups.</li>
-            <li>Built and released an <a href="https://github.com/jgerminario/snip">open source code snippet gem</a> three weeks after learning Ruby.</li>
-            <li>Pitched a <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">renters' rights app</a> to a packed auditorium to win third place among 95 teams in the Developer Week 2015 hackathon, after leading our team's development and product efforts over two days.</li>
+            <li><a href="#spectrum" target="_self">Reduce political polarization</a></li>
+            <li><a href="#happ" target="_self">Tackle the epidemic of depression</a></li>
+            <li><a href="#wakely" target="_self">Help people master their habits</a></li>
+            <li><a href="#nplh" target="_self">Address inequality and imbalances of information</a></li>
           </ul>
-          <p>As a former startup growth marketer, I rose through four specialist and leadership positions in two and a half years, with a progressively more technical and product-oriented focus. I work hard for the right product.</p>
 
-          <p>As a recent coding bootcamp graduate, I know more than specific technologies—I know how software is built, how to think about technical problems, and how to collaborate on code. I've delivered five fully-functional apps, gems and websites in the past four months, independently or as the leader of team projects. I learn fast and ship faster.</p>
+          <p>If you care about the kind of problems we still haven't come close to fixing for everyday people, get in touch: jgerminario[at]gmail[dot]com.</p>
 
-          <p>Fresh out of 1,000 hours of constant, intensive code bootcamp study, I am looking for a challenge, especially from a fast-moving, agile team: jgerminario [at] gmail [dot] com</p>
-
-          <!-- desktop -->
-<!--           <object class="full-scr-pdf" data="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf#view=FitH" type="application/pdf" width="50%" height="50%">
-              <param name="zoom" value="50%" />
-              <param name="src" value="<?php echo get_template_directory_uri(); ?>/imgs/resume.pdf?#view=FitH" />
-              <param name="type" value="application/pdf" /> -->
-            <h2><a href="https://drive.google.com/file/d/0B4oYHWoyxHvOa19FVk51dGNVZXc/view?usp=sharing" target="_blank">View resume »</a></h2>
-          <!-- </object> -->
-          <!-- mobile -->
-    <!--       <h2><a class="mobile-pdf" href="https://drive.google.com/file/d/0B4oYHWoyxHvORmY2bTFEUUVyQ2c/view?usp=sharing" target="_blank">View resume »</a></h2> -->
+          <h2><a href="https://docs.google.com/document/d/1eTXLht3bJViRUBjEOOGyJN8fTCtdBBKpelhno-AIQuI/edit?usp=sharing" target="_blank">View resume »</a></h2>
           
           <a name="portfolio"></a>
           <h1 class="p-tb-lg two-three-em right-title">Portfolio</h1>
@@ -74,106 +66,95 @@ Template Name: Home
 
             <article class="portfolio-item">
                   
-              <h2>Career Bootcamp</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/careerbootcamp.png" alt="Career Bootcamp"/>A web app helping job hunting engineers prepare for common, crowdsourced technical interview questions.</p>
+              <h2><a name="spectrum" href="https://www.getthespectrum.com">Spectrum</a></h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/spectrum.png" alt="Spectrum"/>A Chrome extension that fights polarization by providing articles about the same topic from other perspectives.</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Timeframe: March 2015-present</li>
-                <li>Role: Cofounder and full-stack developer in ongoing two-person project</li>
-                <li>Websites: <a href="http://careerbootcamp.herokuapp.com/ycdemo" target="_blank">Heroku (live alpha deployment with test account)</a>, <a href="https://www.youtube.com/watch?v=4kUzXMrG0r8">demo video</a>, <a href="https://github.com/shinshinwu/career-bootcamp" target="_blank">GitHub</a></li>
-                <li>Languages: JavaScript, Ruby</li>
-                <li>Front-end: Rails server-side rendering, JavaScript, Pure CSS</li>
-                <li>Back-end: Rails</li>
-                <li>Database: PostgresSQL</li>
-                <li>Data storage: Amazon S3</li>
-                <li>Additional technology: HTML5 getUserMedia API, record widget functionality and Record.js with OGG compression</li>
+                <li>Timeframe: November 2016-present</li>
+                <li>Role: Founder, CEO, head of product, currently joined by an engineering cofounder, a design cofounder and two additional engineers</li>
+                <li>Achievements: Won first place at the November 2016 Debug Politics hackathon, featured on CBS Nightbeat, <a href="https://www.ft.com/content/8ecc63ea-b4f5-11e6-ba85-95d1533d9a62?accessToken=zwAAAVnJB8YYkdOOzGPqtPUR5tO6hZXRUz2aYg.MEYCIQDGQdpc3aw8WogSZSPFkC9IjkcQe0oUeTsmBl_WV7MZpwIhAM4IRi-MARInUZWvxRsDSXcG8f4VMqg8fmtCJ7Mti3QP&sharetype=gift" target="_blank">Financial Times</a> and <a href="http://www.huffingtonpost.com/entry/5841b3fde4b0cf3f6455894f?timestamp=1480701903887" target="_blank">Huffington Post</a></li>
+                <li><a href="https://github.com/spectrum-app">GitHub</a></li>
+                <li><a href="https://drive.google.com/open?id=0B4oYHWoyxHvOX18xY1ZfdFpRbGc">Demo video</a></li>
+                <li>Technologies: Python/Django, NLP/NLTK, machine learning and AI for article recommendation engine, JavaScript/HTML/CSS for Chrome extension</li>
               </ul>
             </article>
 
             <article class="portfolio-item">
-                      
-              <h2>Upstarter</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/upstarter.png" alt="Upstarter"/>A mobile app providing job-hunters investor-grade insight into the heated startup market.</p>
-              <div class="clearfix"></div>
-              <ul>
-                <li>Timeframe: Week-long final project, January 2015, plus ongoing development</li>
-                <li>Role: Team lead, backend/database engineer and technical architect</li>
-                <li>Websites: <a href="http://upstarter-client.herokuapp.com" target="_blank">Heroku (live deployment)</a>, <a href="https://github.com/jgerminario/upstarter" target="_blank">GitHub</a></li>
-                <li>Languages: Javascript</li>
-                <li>Front-end: Angular/Ionic</li>
-                <li>Back-end: Node.js/Express</li>
-                <li>Database: MongoDB + Mongoose ORM</li>
-                <li>APIs: LinkedIn oAuth, Crunchbase API</li>
-                <li>Additional technology: Geospatial querying using MongoDB, Node.js background jobs, algorithm development for startup 'Momentum Score'
-                </li>
-              </ul>
-            </article>
-
-            <article class="portfolio-item">
-              <h2>Happ</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/happ.png" alt="Happ"/>A mobile app that helps patients with life-changing illnesses maintain a positive mental and behavioral outlook.</p>
+              <h2><a href="https://github.com/philipshackathon2015" name="happ" target="_blank">Happ</a></h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/happ.png" alt="Happ"/>A mobile app that helps patients with life-changing illnesses maintain a positive mental and behavioral outlook</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Timeframe: Two day hackathon project, March 2015</li>
-                <li>Role: Team lead and data visualization engineer, led team to win 5th place in Philips HealthSuite Hackathon</li>
-                <li>Websites: <a href="https://github.com/philipshackathon2015" target="_blank">GitHub organization (five interlinked apps built over the weekend)</a>, <a href="http://happ-vis.herokuapp.com/" target="_blank">data visualization component (live deployment)</a>, <a href="https://drive.google.com/file/d/0B4oYHWoyxHvOU1JHM1RRRk1qT3c/view" target="_blank">pitch deck</a></li>
-                <li>Languages: Javascript</li>
-                <li>Front-end: Angular/Ionic</li>
-                <li>Back-end: Node.js</li>
-                <li>Database: MongoDB</li>
-                <li>APIs: Twitter and Facebook</li>
-                <li>Additional technology: HP sentiment analysis for parsing user's social feed.</li>
+                <li>Role: Team/product lead and data visualization engineer, pitch presenter</li>
+                <li>Achievements: Won 5th place in Philips HealthSuite Hackathon</li>
+                <li><a href="assets/happ-flow.pptx" target="_blank">Pitch deck</a></li>
+                <li><a href="https://www.youtube.com/watch?v=bg_YajlhtAM" target="_blank">Pitch video</a></li>
+                <li>Technologies used: Javascript, D3.js, Angular/Ionic,  Node.js, Twitter and Facebook APIs, HP sentiment analysis for parsing user's social feed</li>
               </ul>
             </article>
   
 
             <article class="portfolio-item">
-              <h2>No Place Like Home</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them respond to landlord buyout offers.</p>
+              <h2><a href="https://github.com/noplacelikehome/noplacelikehome_app" name="nplh" target="_blank">No Place Like Home</a></h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/nplh.png" alt="No Place Like Home"/>A web app equipping San Francisco renters with data to help them respond to landlord buyout offers</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Timeframe: Two day hackathon project, February 2015, plus ongoing development</li>
-                <li>Role: Technical/product lead and full-stack engineer for two day Developer Week 2015 hackathon, led team to win 3rd place among 95 teams</li>
-                <li>Websites: <a href="https://github.com/noplacelikehome/noplacelikehome_app" target="_blank">GitHub</a>, <a target="_blank" href="http://noplacelikehome.co">Heroku (live deployment)</a></li>
-                <li>Languages: Ruby, Javascript</li>
-                <li>Front-end: Angular</li>
-                <li>Back-end: Sinatra</li>
-                <li>Database: PostgreSQL</li>
-                <li>APIs: Zillow, Mapbox</li>
+                <li>Timeframe: Two day hackathon project, February 2015</li>
+                <li>Role: Technical/product lead and full-stack engineer for two day Developer Week 2015 hackathon, pitch presenter</li>
+                <li>Achievements: Led team to win 3rd place among 95 teams</li>
+                <li>Languages: Ruby, Javascript, Angular, Sinatra, PostgreSQL, Zillow API and Mapbox API</li>
               </ul>
             </article>
 
             <article class="portfolio-item">
-              <h2>Snip</h2>
-              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—nearly 1,000 downloads.</p>
+                      
+              <h2><a href="https://github.com/jgerminario/upstarter" target="_blank">Upstarter</a></h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/upstarter.png" alt="Upstarter"/>A mobile app providing job-hunters investor-grade insight into the heated startup market</p>
               <div class="clearfix"></div>
               <ul>
-                <li>Timeframe: December 2014-January 2015 (solo independent project)</li>
-                <li>Role: Team lead for initial work, solo engineering contributor for ongoing development</li>
-                <li>Websites: <a target="_blank" href="https://rubygems.org/gems/snipgem">RubyGems</a>, <a target="_blank" href="https://github.com/jgerminario/snip">GitHub</a></li>
-                <li>Languages: Ruby</li>
-                <li>Environment: CLI/filesystem</li>
+                <li>Timeframe: Week-long final project, January 2015</li>
+                <li>Role: Team/product lead, backend/database engineer and technical architect, pitch presenter</li>
+                <li>Achievements: Led the team to learn Node, Mongo, Express, Angular, and Ionic from scratch and deliver a working product covering over 90,000 startups in a week</li>
+                <li>Technologies used: Javascript, Angular/Ionic, Node.js/Express, MongoDB, geospatial querying, background jobs, oAuth, algorithmic development of 'Momentum Score'</li>
               </ul>
-            </article> 
+            </article>
 
             <article class="portfolio-item">
-              <h2>Wakely</h2>
+              <h2><a href="https://github.com/shinshinwu/career-bootcamp" target="_blank">Career Bootcamp</a></h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/careerbootcamp.png" alt="Career Bootcamp"/>A web app helping job hunting engineers prepare for common, crowdsourced technical interview questions.</p>
+              <div class="clearfix"></div>
+              <ul>
+                <li>Timeframe: March 2015-present</li>
+                <li>Role: Co-creator and full-stack developer</li>
+                <li>Technologies: JavaScript, Ruby, Rails, JavaScript, CSS, Amazon S3, HTML5 getUserMedia API, Record.js, OGG compression</li>
+              </ul>
+            </article>
+
+            <article class="portfolio-item">
+              <h2><a target="_blank" name="wakely" href="https://github.com/jgerminario/wakely">Wakely</a></h2>
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/wakely.png" alt="Wakely"/>A web app designed to embarrass you out of bed in the morning, using Twitter oAuth.</p>
               <div class="clearfix"></div>
               <ul>
                 <li>Timeframe: December 2014</li>
-                <li>Role: All development (full-stack) and design (solo project)</li>
-                <li>Websites: <a target="_blank" href="http://wakely.herokuapp.com">Heroku (live deployment)</a>, <a target="_blank" href="https://github.com/jgerminario/wakely">GitHub</a></li>
-                <li>Languages: Javascript, Ruby</li>
-                <li>Front-end: Native Javascript + ERB (server-side rendering)</li>
-                <li>Back-end: Sinatra</li>
-                <li>Database: PostgreSQL</li>
-                <li>APIs: Google Maps, Twitter oAuth</li>
-                <li>Additional technology: Redis/Sidekiq-based scheduled background jobs, geolocation distance radius</li>
+                <li>Role: Full-stack development and product ideation/design (solo project)</li>
+                <li>Achievements: Succeeded in getting me to wake up earlier in the morning!</li>
+                <li>Technologies: Javascript, Ruby, Sinatra, Google Maps API, Twitter oAuth, Redis/Sidekiq-based scheduled background jobs, geolocation distance radius</li>
               </ul>
             </article>
 
             <article class="portfolio-item">
+              <h2><a href="https://github.com/jgerminario/snip">Snip</a></h2>
+              <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/snip.png" alt="Snip gem"/>A Ruby command line gem to help you collect your code for future reference—nearly 1,000 downloads.</p>
+              <div class="clearfix"></div>
+              <ul>
+                <li>Timeframe: December 2014-January 2015 (solo independent project)</li>
+                <li>Role: Team/product lead for initial work, solo engineering contributor for ongoing development</li>
+                <li>Achievements: Downloaded over 3,000 times on <a target="_blank" href="https://rubygems.org/gems/snipgem">RubyGems</a></li>
+                <li>Technologies: Ruby, BASH</li>
+              </ul>
+            </article> 
+
+<!--             <article class="portfolio-item">
               <h2>New Jersey Patent Law</h2>
               <p><img src="<?php echo get_template_directory_uri(); ?>/imgs/njpl.png" alt="New Jersey Patent Law"/>A responsive, WordPress-integrated website for the law firm of Thomas J Germinario.</p>
               <div class="clearfix"></div>
@@ -199,7 +180,7 @@ Template Name: Home
                 <li>Back-end: WordPress CMS</li>
                 <li>Database: MySQL</li>
               </ul>
-            </article>
+            </article> -->
 
           </div>
         </section>
